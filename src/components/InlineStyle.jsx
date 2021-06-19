@@ -6,7 +6,7 @@ export const InlineStyle = () => {
     margin: "8px",
     display: "flex",
     justifyContent: "space-around",
-    allignItems: "center"
+    alignItems: "center"
   };
   const titleStyle = {
     margin: 0,
@@ -18,6 +18,7 @@ export const InlineStyle = () => {
     padding: "8px",
     borderRadius: "8px"
   };
+
   return (
     <div style={containerStyle}>
       <p style={titleStyle}>- Inline Styles -</p>
